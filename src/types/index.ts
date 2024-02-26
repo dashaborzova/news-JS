@@ -7,7 +7,7 @@ export interface NewsData {
     publishedAt: string;
     content?: string | null;
     source: {
-        id: string,
-        name: string
-        }
+        id: string;
+        name: string;
+    };
 }
